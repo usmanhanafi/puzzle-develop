@@ -1,0 +1,33 @@
+html,
+body,
+#root {
+  background: azure;
+  height: 100%;
+}
+h1.puzzle {
+  font-size: 48px;
+}
+h1, p.puzzle {
+  margin: 10px;
+}
+input.puzzle {
+  margin-left: 10px;
+}
+.board {
+  font-family: "Lobster", cursive;
+  min-width: 300px;
+  margin: 10px;
+}
+.square {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  background: lightgreen;
+  border: 1px solid darkgreen;
+  line-height: 60px;
+  text-align: center;
+}
+.zero {
+  background: beige;
+}
